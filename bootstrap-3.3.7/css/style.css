@@ -1,0 +1,35 @@
+@media only screen and (min-width: 1170px){
+
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1169px){
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+
+}
+@media only screen and (min-width: 640px) and (max-width: 767px){
+
+}
+@media only screen and (min-width: 480px) and (max-width: 639px){
+
+}
+@media only screen and (max-width: 479px){
+    .logophone{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+
+}
+
+#background{
+    background-color: #79A6B1;
+}
+.space{
+    margin: 15px auto 15px auto;
+}
+.color{
+    margin-bottom: 0px;
+}
