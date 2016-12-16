@@ -19,34 +19,33 @@
 </head>
 <body>
 
-<div id="background" class="container-fluid">
+<header id="background" class="container-fluid">
     <div class="container space">
         <div class="col-md-12">
-            <div class="col-md-3">
-                <img class="logophone" src="img/logo.png" alt="">
+            <div class="col-md-3 logo">
+                <img src="img/logo.png" alt="">
             </div>
-            <div class="col-md-9">
-                <nav class="navbar navbar-inverse color">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="#">Anasayfa</a>
-                        </div>
-                        <div class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav">
-                                <li><a href="#about">Hakkımızda</a></li>
-                                <li><a href="#contact">İletişim</a></li>
-                            </ul>
-                        </div><!--/.nav-collapse -->
-                    </div>
-                </nav>
+            <div class="col-md-9 navbar stone navbar-default yamm pull-right">
+                <div class="navbar-header">
 
+                    <button type="button" data-toggle="collapse" data-target="#navbar-collapse-grid" class="navbar-toggle">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a href="index.html" class="navbar-brand "></a>
+                </div>
+
+                <div id="navbar-collapse-grid" class="navbar-collapse collapse pull-right">
+                    <ul class="nav stone navbar-nav">
+                        <li><a href="index.html" class="dropdown-toggle active">ANASAYFA</a></li>
+                        <li><a href="hakkimizda.html" class="dropdown-toggle">HAKKIMIZDA</a></li>
+                        <li><a href="urunlerimiz.html" class="dropdown-toggle">ÜRÜNLERİMİZ</a></li>
+                        <li><a href="iletisim.html" class="dropdown-toggle">İLETİŞİM</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</header>
