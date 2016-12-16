@@ -17,7 +17,7 @@
     <link href="bootstrap-3.3.7/css/style.css" rel="stylesheet">
 
 </head>
-<body>
+<body id="backgroundmain">
 
 <header id="background" class="container-fluid">
     <div class="container space">
@@ -27,21 +27,17 @@
             </div>
             <div class="col-md-9 navbar stone navbar-default yamm pull-right">
                 <div class="navbar-header">
-
                     <button type="button" data-toggle="collapse" data-target="#navbar-collapse-grid" class="navbar-toggle">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-
-                    <a href="index.html" class="navbar-brand "></a>
                 </div>
 
                 <div id="navbar-collapse-grid" class="navbar-collapse collapse pull-right">
                     <ul class="nav stone navbar-nav">
                         <li><a href="index.html" class="dropdown-toggle active">ANASAYFA</a></li>
                         <li><a href="hakkimizda.html" class="dropdown-toggle">HAKKIMIZDA</a></li>
-                        <li><a href="urunlerimiz.html" class="dropdown-toggle">ÜRÜNLERİMİZ</a></li>
                         <li><a href="iletisim.html" class="dropdown-toggle">İLETİŞİM</a></li>
                     </ul>
                 </div>

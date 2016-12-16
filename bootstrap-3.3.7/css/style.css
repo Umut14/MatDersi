@@ -24,6 +24,10 @@
 
 }
 
+#backgroundmain{
+    background-image: url("../../img/backgrou.png");
+}
+
 #background{
     background-color: #79A6B1;
 }
